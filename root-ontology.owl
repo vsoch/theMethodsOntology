@@ -1,0 +1,4670 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/CATqubOgczgHP2E0AccY7W#"
+     xml:base="http://webprotege.stanford.edu/project/CATqubOgczgHP2E0AccY7W"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://protege.stanford.edu/webprotege/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/CATqubOgczgHP2E0AccY7W">
+        <webprotege:revision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">830</webprotege:revision>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ontology to describe algorithms across the scientific literature</rdfs:comment>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sep 29, 2014 4:40:25 PM</dc:date>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontology was generated from an ontology revision in WebProtege http://webprotege.stanford.edu</rdfs:comment>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">guest</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">system</dc:creator>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vsochat</dc:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83A5W3pwy7X8fjlhnAPPE -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/R83A5W3pwy7X8fjlhnAPPE">
+        <rdfs:label>deterministic</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8O9Sk5E8hYp6N1A5g7RtL -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/R8O9Sk5E8hYp6N1A5g7RtL">
+        <rdfs:label>probabilistic</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9I1KAfna0AzRim4WnFvygL -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/R9I1KAfna0AzRim4WnFvygL">
+        <rdfs:label>visualization</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ROask6EJ7sDaTvDvfqXBp -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/R9ROask6EJ7sDaTvDvfqXBp">
+        <rdfs:label>semi-supervised</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnRrY23Cdm7NgL35zqwdYJ -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RCnRrY23Cdm7NgL35zqwdYJ">
+        <rdfs:label>segmentation</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDoCPLB0IevFoq9s9gJciK0 -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RDoCPLB0IevFoq9s9gJciK0">
+        <rdfs:label>normal</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REiWmRT9kUw2f9nAF4Cl0Q -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/REiWmRT9kUw2f9nAF4Cl0Q">
+        <rdfs:label>feature selection</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHb3NGU2X9aYdfQ4xNfTFs -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RHb3NGU2X9aYdfQ4xNfTFs">
+        <rdfs:label>preprocessing</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJMLovw5dCGTyum8afdbHM -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RJMLovw5dCGTyum8afdbHM">
+        <rdfs:label>normalization</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjqndaPhcqkAIZywyhsIn9 -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RjqndaPhcqkAIZywyhsIn9">
+        <rdfs:label>unsupervised</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtJsEvhbJGRhHLeopT8ub -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RtJsEvhbJGRhHLeopT8ub">
+        <rdfs:label>noise reduction</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvjHpODG5e38vWA4iKVzsf -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RvjHpODG5e38vWA4iKVzsf">
+        <rdfs:label>supervised</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR">
+        <rdfs:label>type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PqBT59opJ38d1uLYVrzC2 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7PqBT59opJ38d1uLYVrzC2">
+        <rdfs:label>family</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vCofN6IYQ3sE0pHdoqgz -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8vCofN6IYQ3sE0pHdoqgz">
+        <rdfs:label>approach</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0oFSG858tCNEh7U5KjWQk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R0oFSG858tCNEh7U5KjWQk">
+        <rdfs:label>Bicubic Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8juD5ZS1liXuK532aP3bSI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0wzOG0yB8Q0O3bdH9DwfE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R0wzOG0yB8Q0O3bdH9DwfE">
+        <rdfs:label>Lanczos Resampling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8juD5ZS1liXuK532aP3bSI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1106sah9p8gMYksvKnZ2y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1106sah9p8gMYksvKnZ2y">
+        <rdfs:label>Computer Graphics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1DxDsYmsW5FafwPQlro1l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1DxDsYmsW5FafwPQlro1l">
+        <rdfs:label>Voronoi Diagrams</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1XXxy5ozHjyoZ9JvH7EmG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1XXxy5ozHjyoZ9JvH7EmG">
+        <rdfs:label>QR Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qcil4EgsOeHKlqKmmEpFD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3XGaWhtO9uCSpObExkZGa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3XGaWhtO9uCSpObExkZGa">
+        <rdfs:label>Rabin-Karp String Search Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3trBWKI17SZCBv5vWn8X5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3trBWKI17SZCBv5vWn8X5">
+        <rdfs:label>Ridder&apos;s Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT">
+        <rdfs:label>Square and Root Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4x2OTCvBrSWsFJXaqqelT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4x2OTCvBrSWsFJXaqqelT">
+        <rdfs:label>Gauss-Seidel Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R64XO65JszBlbHdJNipLy1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R64XO65JszBlbHdJNipLy1">
+        <rdfs:label>Ukkonen&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70gN1mkiOIqCuQlLi9xuye -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R70gN1mkiOIqCuQlLi9xuye">
+        <rdfs:label>Harmoney Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7150AV61icp8Jcky4T6PWf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7150AV61icp8Jcky4T6PWf">
+        <rdfs:label>Furer&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RkxkuqNLbJ2qR80RqPWu8V"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71SSlMjLAMJJTK1IKo3j32 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R71SSlMjLAMJJTK1IKo3j32">
+        <rdfs:label>Gosper&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71p2sjxNlLUAWrtQxNlEVt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R71p2sjxNlLUAWrtQxNlEVt">
+        <rdfs:label>Soundex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9YpJMpVSyN21Np3x79uJ1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R72Hd5vCylMVjIwr2GHMOXP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R72Hd5vCylMVjIwr2GHMOXP">
+        <rdfs:label>Sparse Matrix</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R72rOPo4mSQCdQxwAF1ix29 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R72rOPo4mSQCdQxwAF1ix29">
+        <rdfs:label>Trapezoidal Rule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94NbElZupcHj9lepx6b2vm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73vSNibTDfeCa3F2GM7gyi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R73vSNibTDfeCa3F2GM7gyi">
+        <rdfs:label>Secant Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76Ud1ZaiTOxt9n3jwNH0Pl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R76Ud1ZaiTOxt9n3jwNH0Pl">
+        <rdfs:label>Shor&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77JAwmb0glN1b7HH2KOcs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77JAwmb0glN1b7HH2KOcs">
+        <rdfs:label>Boruvka&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8f8fJwsigLyN2gb6KY3ANP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7AevXKuouDSIX4samQXE2L -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7AevXKuouDSIX4samQXE2L">
+        <rdfs:label>Fast Multipole Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QkJMFSZh7QaPsKaltWY1j"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IhNWAjfrbRDiumVLgXE50 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7IhNWAjfrbRDiumVLgXE50">
+        <rdfs:label>Grammar Induction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IuiaZt33Hi6LslPBFXmSF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7IuiaZt33Hi6LslPBFXmSF">
+        <rdfs:label>Bitap Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD1XBFfAeog0wod9N7I4UnJ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JJB9hE2nVlYFlGRjpA9xn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7JJB9hE2nVlYFlGRjpA9xn">
+        <rdfs:label>OPTICS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7UjfEoYEn4rIPmUgsxP3Qp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KPsl2gfDzjsfe7i2CjCHH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7KPsl2gfDzjsfe7i2CjCHH">
+        <rdfs:label>Exchange Sorts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KcW5kJYnhj8QqenhSe55y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7KcW5kJYnhj8QqenhSe55y">
+        <rdfs:label>Fitness Proportion Selection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlB1akny7mOTTWSnfYb9ly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7M0TX4Q6v1X8iZBADy946n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7M0TX4Q6v1X8iZBADy946n">
+        <rdfs:label>Best Bin Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDe9woaqiXwICdE7xlTXZha"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7N8VEvffyY0uF4q9BYfwJ9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7N8VEvffyY0uF4q9BYfwJ9">
+        <rdfs:label>Radix Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7N9KjOQSLMcpmz3jHJRBtH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7N9KjOQSLMcpmz3jHJRBtH">
+        <rdfs:label>Schonhage-Strassen Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDn9Cz3uTWc4F2UfNoHB1kM"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RkxkuqNLbJ2qR80RqPWu8V"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NCSY0MsR2bScQwsx8IhH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7NCSY0MsR2bScQwsx8IhH">
+        <rdfs:label>Bruss Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OJQTIy4cIURe6ow4Swzj6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7OJQTIy4cIURe6ow4Swzj6">
+        <rdfs:label>Karatsuba Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDn9Cz3uTWc4F2UfNoHB1kM"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RkxkuqNLbJ2qR80RqPWu8V"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc">
+        <rdfs:label>Primality Tests</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OMGBGHCtQGD0bPLxa2dhH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7OMGBGHCtQGD0bPLxa2dhH">
+        <rdfs:label>Link Analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8tX1LZX79jy0zxi9NBiwM1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S">
+        <rdfs:label>Substring Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFv5XlTjkcZJHrqwso9jkv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OpUEham7L9beIp51MhkZ8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7OpUEham7L9beIp51MhkZ8">
+        <rdfs:label>Index Calculus Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7r4ABzaUz8ul5P0Is8vZZH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Q5eklRmH57oFjWCWWAVyn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Q5eklRmH57oFjWCWWAVyn">
+        <rdfs:label>Structured Prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYyej4WRHLNSqjrvttgTKm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QG8Dldl1hF0fYlEDju9Eq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7QG8Dldl1hF0fYlEDju9Eq">
+        <rdfs:label>Texas Medication Algorithm Project</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGPPwWViwDhDUh9LrAt5IC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QkJMFSZh7QaPsKaltWY1j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7QkJMFSZh7QaPsKaltWY1j">
+        <rdfs:label>N-body Problems</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBr3W0ur7Wa4gaQ6Fv5Jb2D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S">
+        <rdfs:label>Triangulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7UjfEoYEn4rIPmUgsxP3Qp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7UjfEoYEn4rIPmUgsxP3Qp">
+        <rdfs:label>Density Based Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7V17p5kMUWo3fbI7A6kPk5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7V17p5kMUWo3fbI7A6kPk5">
+        <rdfs:label>Hirschberg&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7WCp47TEkkCOm4P53TZy2r -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7WCp47TEkkCOm4P53TZy2r">
+        <rdfs:label>Number Generator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrCpPfHX4rbjc4dh222ETW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Wg4dyLU1poFJyFRncUU8g -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Wg4dyLU1poFJyFRncUU8g">
+        <rdfs:label>Lax-Wendroff</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R89OeNrh4KPsR4O9I07ab1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Wzl5yLpzqwPmyQafZqQZz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Wzl5yLpzqwPmyQafZqQZz">
+        <rdfs:label>Square Roots</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7YGLspJcdK5QulLDHJownQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7YGLspJcdK5QulLDHJownQ">
+        <rdfs:label>Merge Sorts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7YSshj5MYpWvH9rGnIKrRt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7YSshj5MYpWvH9rGnIKrRt">
+        <rdfs:label>Bagging</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RZs3V3arbSg6xzRkuTnLmo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Z4ABBcnXu7h53ZuFjat63 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Z4ABBcnXu7h53ZuFjat63">
+        <rdfs:label>ID3 Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCXu6hp7cOJDF5a78E679Bc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Z9Lr4phlwLBVcDwY9KR9I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Z9Lr4phlwLBVcDwY9KR9I">
+        <rdfs:label>Long Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB7iINMqkXhVumLJOt5VNJu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZqQeOXtdcCR4ot0UGBRR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZqQeOXtdcCR4ot0UGBRR">
+        <rdfs:label>Bead Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7alWEOpupot14WUuLRodrv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7alWEOpupot14WUuLRodrv">
+        <rdfs:label>Factor Analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7avjXfTQPWLrBaYR1lkCOi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7avjXfTQPWLrBaYR1lkCOi">
+        <rdfs:label>Pulse-coded Neutral Networks</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7b3Yhm50FjdIIHiWKtlD7l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7b3Yhm50FjdIIHiWKtlD7l">
+        <rdfs:label>Locally Weighted Linear Regression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REiTWSRmsZZB31zi2FnFV7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7cc7rOYfs5Bb6592PNb1pu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7cc7rOYfs5Bb6592PNb1pu">
+        <rdfs:label>BrownBoost</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDf0HksgIFb2rW7bzGxNKIf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7f0tQJJTznQXhMVk11R1vl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7f0tQJJTznQXhMVk11R1vl">
+        <rdfs:label>Linear Programming</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7f2aRo10671lMVfVufWw85 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7f2aRo10671lMVfVufWw85">
+        <rdfs:label>Samplesort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNy2UYaOWTDOHT66jd3ghZ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7f4kyDVmukfzqT8YWARAqB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7f4kyDVmukfzqT8YWARAqB">
+        <rdfs:label>FLAME Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlfOL5WIHmJv53cdQHmBy2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fmCvVTHkm1Vvql17u9ZIP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7fmCvVTHkm1Vvql17u9ZIP">
+        <rdfs:label>Truncation Selection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlB1akny7mOTTWSnfYb9ly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7">
+        <rdfs:label>Dimensionality Reduction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hQPm3b5nBfBu7LnhQS7rk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hQPm3b5nBfBu7LnhQS7rk">
+        <rdfs:label>Hyperbolic and Trigonometric Functions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hkDDuzj1x1oV7DlwVqcOq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hkDDuzj1x1oV7DlwVqcOq">
+        <rdfs:label>Gauss-Jordan Elimination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hu8jFYmFrwkTpZaCwHl8z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hu8jFYmFrwkTpZaCwHl8z">
+        <rdfs:label>Graph Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYyej4WRHLNSqjrvttgTKm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7imY80cjibbk7a0jhH0Mpk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7imY80cjibbk7a0jhH0Mpk">
+        <rdfs:label>Bron-Kerbosch Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95nCNDyTGvFGi2mboCQhvs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7j3wLZgt2c7m9eoSIOEoS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7j3wLZgt2c7m9eoSIOEoS">
+        <rdfs:label>One-attribute rule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXInO1NzEvsqutdpx3xcK5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7jMOXhu3rACGve6DS7qhty -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7jMOXhu3rACGve6DS7qhty">
+        <rdfs:label>Difference Map Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7l7svm5ykdDBaGDtnsEfsM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7l7svm5ykdDBaGDtnsEfsM">
+        <rdfs:label>Ellipsoid Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mnhKkEptqkM2e0cPXflvd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7mnhKkEptqkM2e0cPXflvd">
+        <rdfs:label>Branch and Bound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7o39Jo6PkK4dhBeifhH6bE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7o39Jo6PkK4dhBeifhH6bE">
+        <rdfs:label>Baby-step Giant-step</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7r4ABzaUz8ul5P0Is8vZZH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o">
+        <rdfs:label>Algebra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7">
+        <rdfs:label>Optimization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pVTzWIYbZpHqUpwgd0Dqb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7pVTzWIYbZpHqUpwgd0Dqb">
+        <rdfs:label>Substrings</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pvbLK7RpfkTymDTr4FzLJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7pvbLK7RpfkTymDTr4FzLJ">
+        <rdfs:label>Hermite Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qcil4EgsOeHKlqKmmEpFD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qcil4EgsOeHKlqKmmEpFD">
+        <rdfs:label>Eigenvalue Decomposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qt6fI0Tv9zodggdzBZo78 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qt6fI0Tv9zodggdzBZo78">
+        <rdfs:label>Humorous</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7qwHtsHtKigWtRgXZoToWI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7qwHtsHtKigWtRgXZoToWI">
+        <rdfs:label>Longest Common Substring Problem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pVTzWIYbZpHqUpwgd0Dqb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7r4ABzaUz8ul5P0Is8vZZH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7r4ABzaUz8ul5P0Is8vZZH">
+        <rdfs:label>Discrete Logarithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7sVUyFy2H2kvBQWcXlIoQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7sVUyFy2H2kvBQWcXlIoQ">
+        <rdfs:label>Cannon&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReiABsiTh3dZ9lfS0S06MC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7saJaGAEkWIWbxe7KwNE4B -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7saJaGAEkWIWbxe7KwNE4B">
+        <rdfs:label>Shamos-Hoey Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tCadt8fvTBYDmtAzA0lIq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7tCadt8fvTBYDmtAzA0lIq">
+        <rdfs:label>Binary GCD Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tTZ7CcYvqMcUHqXNW1pat -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7tTZ7CcYvqMcUHqXNW1pat">
+        <rdfs:label>Barnes-Hut Simulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QkJMFSZh7QaPsKaltWY1j"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7uzie9tSrTaxMcSgUklKrS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7uzie9tSrTaxMcSgUklKrS">
+        <rdfs:label>Multivariate Division Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xPFIYFBk9vEK1JSbNjSbM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7xPFIYFBk9vEK1JSbNjSbM">
+        <rdfs:label>Fortune&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R1DxDsYmsW5FafwPQlro1l"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yQfbFZQketdez24B1XVMV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yQfbFZQketdez24B1XVMV">
+        <rdfs:label>Gauss-Newton Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCZwaKIq3pOywlRDCVwrAhB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yVVCEVYtwEBjh4Rj03KQh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yVVCEVYtwEBjh4Rj03KQh">
+        <rdfs:label>Laplacian Smoothing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yfhKi8a3okHMVbdbGrFFh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yfhKi8a3okHMVbdbGrFFh">
+        <rdfs:label>CRF</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RoVvGwn56iyB2SGAJvr6LF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yvpc8nPmISSCRhoYXGEOl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yvpc8nPmISSCRhoYXGEOl">
+        <rdfs:label>Dynamic Time Warping</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7znXhjJ9OkpdUNcuoloxpM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7znXhjJ9OkpdUNcuoloxpM">
+        <rdfs:label>Kahan Summation Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDl8yoN3S7SAYGUnPKhrK4r"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81oywstfKufEDDlPoMjdOR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81oywstfKufEDDlPoMjdOR">
+        <rdfs:label>Swarm Intelligence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDEQEkGRTAyHAEhv62GtVce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R827YpCoSqJYMNVUHO0UDjA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R827YpCoSqJYMNVUHO0UDjA">
+        <rdfs:label>Addition-chain Exponentiation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDAqCXBe0Xd6QdbK4KeWSsy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82pTnWJM5lfCCmfy0Gb2HU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82pTnWJM5lfCCmfy0Gb2HU">
+        <rdfs:label>Comb Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT8F0cNUNkFJC7LRzCvE1v"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84lS1URNRkfVWMK4v0CjrS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R84lS1URNRkfVWMK4v0CjrS">
+        <rdfs:label>Natural Language Processing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R876F17URkABNhExejlIzxD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R876F17URkABNhExejlIzxD">
+        <rdfs:label>Euclidean Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL">
+        <rdfs:label>Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RvjHpODG5e38vWA4iKVzsf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ROask6EJ7sDaTvDvfqXBp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RjqndaPhcqkAIZywyhsIn9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8vCofN6IYQ3sE0pHdoqgz"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8O9Sk5E8hYp6N1A5g7RtL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8vCofN6IYQ3sE0pHdoqgz"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R83A5W3pwy7X8fjlhnAPPE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8vCofN6IYQ3sE0pHdoqgz"/>
+                <owl:hasValue>experimental</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R89FgwcNDOUaEOyB5J7I9H1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R89FgwcNDOUaEOyB5J7I9H1">
+        <rdfs:label>Buchberger&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R89OeNrh4KPsR4O9I07ab1o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R89OeNrh4KPsR4O9I07ab1o">
+        <rdfs:label>Partial Differential Equations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmwahVMYwfboSTLXGU1UJt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8B6UKqHlAQws0kmZ1KG5qw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8B6UKqHlAQws0kmZ1KG5qw">
+        <rdfs:label>Permutations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8BlGOtdwN8e9N4d0o3S0fj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8BlGOtdwN8e9N4d0o3S0fj">
+        <rdfs:label>Birkhoff Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CQ0BaFwg69pccxnIUW5qK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8CQ0BaFwg69pccxnIUW5qK">
+        <rdfs:label>Point in Polygon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EBRavQi8kgwemKhnWaWm0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8EBRavQi8kgwemKhnWaWm0">
+        <rdfs:label>Sieve of Atkin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ECVlVqcCARZ3vIpblXWDm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ECVlVqcCARZ3vIpblXWDm">
+        <rdfs:label>DBSCAN</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7UjfEoYEn4rIPmUgsxP3Qp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GVxMaF763LvJFri7D32X5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8GVxMaF763LvJFri7D32X5">
+        <rdfs:label>Zero-attribute Rule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXInO1NzEvsqutdpx3xcK5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8JPiQV4BCOXKrrppj4hFTz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8JPiQV4BCOXKrrppj4hFTz">
+        <rdfs:label>K-Way Merge Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwAgDc1jvKalRCD7gPoM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8LknZDbaNu8WsRSpfCe7LV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8LknZDbaNu8WsRSpfCe7LV">
+        <rdfs:label>Trigram Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD1XBFfAeog0wod9N7I4UnJ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8LygLe3LBSjQLDjpcfS6Ye -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8LygLe3LBSjQLDjpcfS6Ye">
+        <rdfs:label>Montgomery Reduction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8M8TSuvybMSo8L8gOFLtmR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8M8TSuvybMSo8L8gOFLtmR">
+        <rdfs:label>Particle Swarm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81oywstfKufEDDlPoMjdOR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8RR5bJo6N0DA8jRztBPvcT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8RR5bJo6N0DA8jRztBPvcT">
+        <rdfs:label>Trigonometric Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8RZIITKam3YHTYmnS3Aa0h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8RZIITKam3YHTYmnS3Aa0h">
+        <rdfs:label>Newton&apos;s Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8TratnTrNj7vb8jKWSYhgO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8TratnTrNj7vb8jKWSYhgO">
+        <rdfs:label>Expectation Maximization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8URgLc34vCW6ugpRFSoFfW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8URgLc34vCW6ugpRFSoFfW">
+        <rdfs:label>Linear Multistep Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94NbElZupcHj9lepx6b2vm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UgqK4IU3RvkDj6K3ObvJ8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8UgqK4IU3RvkDj6K3ObvJ8">
+        <rdfs:label>MISER Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVhRit8WSohrDwsTDu3yin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL">
+        <rdfs:label>Sequencing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Vd5sbO5XZbzKjrEjf60dx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Vd5sbO5XZbzKjrEjf60dx">
+        <rdfs:label>Match Rating Approach</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9YpJMpVSyN21Np3x79uJ1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WOzAZ67JVWpiwRude5cLJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8WOzAZ67JVWpiwRude5cLJ">
+        <rdfs:label>Collision Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XJGWUCTHBRkfDB6Q4C9rZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8XJGWUCTHBRkfDB6Q4C9rZ">
+        <rdfs:label>Pancake Sorting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNy2UYaOWTDOHT66jd3ghZ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XqFCR6ad3lDB9HYeME1Zq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8XqFCR6ad3lDB9HYeME1Zq">
+        <rdfs:label>Stochastic Universe Sampling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlB1akny7mOTTWSnfYb9ly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg">
+        <rdfs:label>Non-comparison Sorts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aGZiY5HWhtadQS9aU2ENv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8aGZiY5HWhtadQS9aU2ENv">
+        <rdfs:label>False Positive Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dHzYXtAo4mOkJ8d12bDmC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8dHzYXtAo4mOkJ8d12bDmC">
+        <rdfs:label>CCA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8f8fJwsigLyN2gb6KY3ANP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8f8fJwsigLyN2gb6KY3ANP">
+        <rdfs:label>Minimum Spanning Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95nCNDyTGvFGi2mboCQhvs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hHfp1rJQQltaGvh5adsdq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8hHfp1rJQQltaGvh5adsdq">
+        <rdfs:label>Baum-Welch Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBZLGFIG59i7VaxX4XKMH2O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ioXiUeKCsFhOFPRQXb7QP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ioXiUeKCsFhOFPRQXb7QP">
+        <rdfs:label>Newton-Raphson Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB7iINMqkXhVumLJOt5VNJu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx">
+        <rdfs:label>Computer Algebra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8juD5ZS1liXuK532aP3bSI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8juD5ZS1liXuK532aP3bSI">
+        <rdfs:label>Multivariate Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8kXeN6mTOYb8nufMnz6jr5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8kXeN6mTOYb8nufMnz6jr5">
+        <rdfs:label>K-Means++</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lut40Bvb1bZdKQIXDdrMG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lut40Bvb1bZdKQIXDdrMG">
+        <rdfs:label>Rainfall-counting Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBr3W0ur7Wa4gaQ6Fv5Jb2D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nOthWM6rUWsPTSRxmrQLm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8nOthWM6rUWsPTSRxmrQLm">
+        <rdfs:label>Temporal Difference Learning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMUnPoqLreLefoQ8R79YXM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8obV2jxCzoZ6YPgph1wxy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8obV2jxCzoZ6YPgph1wxy">
+        <rdfs:label>Partial Least Squares Regression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REiTWSRmsZZB31zi2FnFV7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rWG68woA11Dk7V3DD4gNq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8rWG68woA11Dk7V3DD4gNq">
+        <rdfs:label>Local Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rihQjm9x6bjokt9XFSwTM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8rihQjm9x6bjokt9XFSwTM">
+        <rdfs:label>Cryptography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8sIQu2SemShqAP1JbvLAdc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8sIQu2SemShqAP1JbvLAdc">
+        <rdfs:label>Subsequences</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8skaU4HEXgTHo7yl80O7e7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8skaU4HEXgTHo7yl80O7e7">
+        <rdfs:label>Zeller&apos;s Congruence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RHjroyIGDYTcb9N8HzgVEl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tX1LZX79jy0zxi9NBiwM1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tX1LZX79jy0zxi9NBiwM1">
+        <rdfs:label>Network Analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tlrVS0k3pG8R8RClusqKp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tlrVS0k3pG8R8RClusqKp">
+        <rdfs:label>Schensted Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8B6UKqHlAQws0kmZ1KG5qw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tuaoO5rGcTiKCe9w2FN9T -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tuaoO5rGcTiKCe9w2FN9T">
+        <rdfs:label>Marching Triangles</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wQKoYNzPlC4hwDcHAs0p0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wQKoYNzPlC4hwDcHAs0p0">
+        <rdfs:label>Counting Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wpsF3yTVVawuvMJAR8oHf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wpsF3yTVVawuvMJAR8oHf">
+        <rdfs:label>Random Forest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCXu6hp7cOJDF5a78E679Bc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xClh7CgbRgRVs9Vp2hbns -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xClh7CgbRgRVs9Vp2hbns">
+        <rdfs:label>Apriori Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXInO1NzEvsqutdpx3xcK5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xtNdySrfmEFq7zZHLqFRs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xtNdySrfmEFq7zZHLqFRs">
+        <rdfs:label>Bees Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81oywstfKufEDDlPoMjdOR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93TTZYqQ3o2kry9APD7jNt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R93TTZYqQ3o2kry9APD7jNt">
+        <rdfs:label>Velvet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93ZDaBWlfw4nVYl7Bd9Bfc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R93ZDaBWlfw4nVYl7Bd9Bfc">
+        <rdfs:label>Library Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCAbaR9JckhgmtNSPo01ix7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94NbElZupcHj9lepx6b2vm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94NbElZupcHj9lepx6b2vm">
+        <rdfs:label>Multigrid Methods</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmwahVMYwfboSTLXGU1UJt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94qNAecIRYejMVYqJV8VNt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94qNAecIRYejMVYqJV8VNt">
+        <rdfs:label>Decomposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R72Hd5vCylMVjIwr2GHMOXP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95nCNDyTGvFGi2mboCQhvs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R95nCNDyTGvFGi2mboCQhvs">
+        <rdfs:label>Subgraphs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYyej4WRHLNSqjrvttgTKm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96IG3nB77EZqfgeVaVSqbL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R96IG3nB77EZqfgeVaVSqbL">
+        <rdfs:label>LogitBoost</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDf0HksgIFb2rW7bzGxNKIf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98jo3QNwnAu0IPWxnpyluM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98jo3QNwnAu0IPWxnpyluM">
+        <rdfs:label>FP-growth Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXInO1NzEvsqutdpx3xcK5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98yQdRpDJN8mkOQskDKiWM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R98yQdRpDJN8mkOQskDKiWM">
+        <rdfs:label>Evolution Strategy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDEQEkGRTAyHAEhv62GtVce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99lb0RD9Ioa8guzTHJqjcn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R99lb0RD9Ioa8guzTHJqjcn">
+        <rdfs:label>Linguistics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99qIq5zStSs2Q2k0LWe0r1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R99qIq5zStSs2Q2k0LWe0r1">
+        <rdfs:label>Featherstone&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCW9J76OxTU3jZ790hGvkdl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ArW9806uujqLBddA7XX3x -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ArW9806uujqLBddA7XX3x">
+        <rdfs:label>Jaro-Winkler Distance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBhXiIyZtt150Zozxa6RDr0"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9CP5Rn867ezAaprOc3QLPU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9CP5Rn867ezAaprOc3QLPU">
+        <rdfs:label>Dancing Links</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RedRM3OseTWGX1Ztj6TVGg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9DKLTIBwEuuP1MFTaboHxD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9DKLTIBwEuuP1MFTaboHxD">
+        <rdfs:label>Ferman&apos;s Factorization Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9DwaroBqtUdiZBVNWHWXxA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9DwaroBqtUdiZBVNWHWXxA">
+        <rdfs:label>Kruskal&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8f8fJwsigLyN2gb6KY3ANP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ENcjqUVZizVKxO30uMnn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ENcjqUVZizVKxO30uMnn">
+        <rdfs:label>Restricted Boltzmann Machine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9EWq3kIC8lMyJgkQA7XZ91 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9EWq3kIC8lMyJgkQA7XZ91">
+        <rdfs:label>Steinhaus-Johnson-Trotter Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8B6UKqHlAQws0kmZ1KG5qw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9FELVBSk3lppTk28M3bmHf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9FELVBSk3lppTk28M3bmHf">
+        <rdfs:label>Strand Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7YGLspJcdK5QulLDHJownQ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ga3VHPvjEQMmEzYWOrW3z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Ga3VHPvjEQMmEzYWOrW3z">
+        <rdfs:label>Trial Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9GtLj0kc5yGiNPIiSKh9MG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9GtLj0kc5yGiNPIiSKh9MG">
+        <rdfs:label>Rayleigh Quotient Iteration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qcil4EgsOeHKlqKmmEpFD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9HSg6O2NxsHqDKQIc8ks5i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9HSg6O2NxsHqDKQIc8ks5i">
+        <rdfs:label>Backward Euler Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94NbElZupcHj9lepx6b2vm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Hp2hOYV9uKrRsMXqR7hYe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Hp2hOYV9uKrRsMXqR7hYe">
+        <rdfs:label>Registration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9I0INAtGzn7lGcJqjjtOXm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9I0INAtGzn7lGcJqjjtOXm">
+        <rdfs:label>Heap&apos;s Permutation Generation Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8B6UKqHlAQws0kmZ1KG5qw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9IFsba8e7n4P9amqXATlG7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9IFsba8e7n4P9amqXATlG7">
+        <rdfs:label>Gaussian Elimination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KIfk7XH9CxJOFPzn7udrk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9KIfk7XH9CxJOFPzn7udrk">
+        <rdfs:label>UPGMA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCXu6hp7cOJDF5a78E679Bc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KRmsWROsp2HOaJ6PJWOu9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9KRmsWROsp2HOaJ6PJWOu9">
+        <rdfs:label>Insertion Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCAbaR9JckhgmtNSPo01ix7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9LzWZ3gE8ZUGUM5WgeOtQE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9LzWZ3gE8ZUGUM5WgeOtQE">
+        <rdfs:label>Stochastic Tunneling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NKIriIY2CZ14Bg4EjWhk5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9NKIriIY2CZ14Bg4EjWhk5">
+        <rdfs:label>Levenshtein Edit Distance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBhXiIyZtt150Zozxa6RDr0"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9PI11oC8XGDvUfJNNDCkZm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9PI11oC8XGDvUfJNNDCkZm">
+        <rdfs:label>Binary Splitting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDl8yoN3S7SAYGUnPKhrK4r"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QFq6390beDYKlP1kFEJ6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9QFq6390beDYKlP1kFEJ6">
+        <rdfs:label>Coppersmith-Winograd Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReiABsiTh3dZ9lfS0S06MC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9SL5S2ZnM3RzSqa1mqlTsJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9SL5S2ZnM3RzSqa1mqlTsJ">
+        <rdfs:label>Delaunay Triangulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Vt0APS1gGtdjVXcoFBNiD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Vt0APS1gGtdjVXcoFBNiD">
+        <rdfs:label>Timsort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVyZfaGHsniPOzjCDJ6JDT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9WPfm7FvzOYy3S0i4CLiYF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9WPfm7FvzOYy3S0i4CLiYF">
+        <rdfs:label>Cutting-Plane Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBjO7Lp6SzOLEbmiht2XTh7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9X1wfcFDzgOmsss9Q02wnk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9X1wfcFDzgOmsss9Q02wnk">
+        <rdfs:label>VEGAS Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBr3W0ur7Wa4gaQ6Fv5Jb2D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XXDtHhKebGc2P8PlW4loj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9XXDtHhKebGc2P8PlW4loj">
+        <rdfs:label>Ward&apos;s Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReFjxBOTf5tpX6EP5RstYj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9YBYK7IWA5WT5jaHN6NjF0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9YBYK7IWA5WT5jaHN6NjF0">
+        <rdfs:label>Topological Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNy2UYaOWTDOHT66jd3ghZ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9YpJMpVSyN21Np3x79uJ1o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9YpJMpVSyN21Np3x79uJ1o">
+        <rdfs:label>Phonetic Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD1XBFfAeog0wod9N7I4UnJ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9aWY637Al6OnDRcdxN2Yqr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9aWY637Al6OnDRcdxN2Yqr">
+        <rdfs:label>Flow Networks</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYyej4WRHLNSqjrvttgTKm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9aqWpL4208lGbBSxfqucTz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9aqWpL4208lGbBSxfqucTz">
+        <rdfs:label>Similarity Metrics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9cdwmKMRVYi7Xrxue9qIMv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9cdwmKMRVYi7Xrxue9qIMv">
+        <rdfs:label>SARSA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMUnPoqLreLefoQ8R79YXM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9d4O5lYsihuB2BnvNuAMhJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9d4O5lYsihuB2BnvNuAMhJ">
+        <rdfs:label>Dice&apos;s Coefficient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBhXiIyZtt150Zozxa6RDr0"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB">
+        <rdfs:label>Constraint Satisfaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9dmU4KBOHbOPxHQlOffcFx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9dmU4KBOHbOPxHQlOffcFx">
+        <rdfs:label>Deep Learning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9eCOzAiCViePEfHfenLAQX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9eCOzAiCViePEfHfenLAQX">
+        <rdfs:label>Path-based Strong Component Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95nCNDyTGvFGi2mboCQhvs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9efJjwJMFcuQD6zvttnqWe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9efJjwJMFcuQD6zvttnqWe">
+        <rdfs:label>Union</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwAgDc1jvKalRCD7gPoM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9emRgGBUTvH2cjBn73Vxcc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9emRgGBUTvH2cjBn73Vxcc">
+        <rdfs:label>Metropolis-Hastings Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyyLSdlialeLOuE0zF8fiV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9fyZH10r6GZExtOMXY2JKL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9fyZH10r6GZExtOMXY2JKL">
+        <rdfs:label>Sieve of Sundaram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9h1eK4B3Jps5jSifE4l03h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9h1eK4B3Jps5jSifE4l03h">
+        <rdfs:label>Winnow Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9jVtqdMPkhHwe7urKxPMb7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9jVtqdMPkhHwe7urKxPMb7">
+        <rdfs:label>Bilinear Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8juD5ZS1liXuK532aP3bSI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9kSDE6ScNRgr0UL7IR0abN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9kSDE6ScNRgr0UL7IR0abN">
+        <rdfs:label>Feature Learning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lHMD8sJfx5OTVf0xDEU3D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lHMD8sJfx5OTVf0xDEU3D">
+        <rdfs:label>Cycle Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCAbaR9JckhgmtNSPo01ix7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lPBUZLJ5Pm8zRQc5g5iOA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lPBUZLJ5Pm8zRQc5g5iOA">
+        <rdfs:label>Longest Common Subsequence Problem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8sIQu2SemShqAP1JbvLAdc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9o0SkR9hpGkllJU0y5jLP3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9o0SkR9hpGkllJU0y5jLP3">
+        <rdfs:label>Quadratic Sieve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9okDRShOiTr2Ml2mQxc9zZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9okDRShOiTr2Ml2mQxc9zZ">
+        <rdfs:label>Nth Root</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ovxFi8SR9N0WrIwZLsMWQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ovxFi8SR9N0WrIwZLsMWQ">
+        <rdfs:label>Shortest Path Problem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95nCNDyTGvFGi2mboCQhvs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9q7DRfL95NbAJlSCdNUCQq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9q7DRfL95NbAJlSCdNUCQq">
+        <rdfs:label>Wang and Landau Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyyLSdlialeLOuE0zF8fiV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9w6yu2e06WewSwfMkvysSz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9w6yu2e06WewSwfMkvysSz">
+        <rdfs:label>Odds Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpS2lB4KGZULTHwH4BOlnQ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xBhm8WytC7adTX425cY0I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9xBhm8WytC7adTX425cY0I">
+        <rdfs:label>Ant Colony Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81oywstfKufEDDlPoMjdOR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xmb1jZRkxayo4b45XNWl9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9xmb1jZRkxayo4b45XNWl9">
+        <rdfs:label>Longest Increasing Subsequence Problem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8sIQu2SemShqAP1JbvLAdc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9yxCu1JgmtYGxo2lq8blTq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9yxCu1JgmtYGxo2lq8blTq">
+        <rdfs:label>Smith-Waterman Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9zkavsNFPXgqmCREd6U3CK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9zkavsNFPXgqmCREd6U3CK">
+        <rdfs:label>Bitonic Sorter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBNy2UYaOWTDOHT66jd3ghZ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0Y9faa9yAjQ9O5YVY2SGa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0Y9faa9yAjQ9O5YVY2SGa">
+        <rdfs:label>Karmarkar&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7f0tQJJTznQXhMVk11R1vl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB1fFRtgIB0bjZTxp4x4xZD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB1fFRtgIB0bjZTxp4x4xZD">
+        <rdfs:label>Bounding Box</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB1u6JrTkc1c8nkldiqobZo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB1u6JrTkc1c8nkldiqobZo">
+        <rdfs:label>Arnoldi Interation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qcil4EgsOeHKlqKmmEpFD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB42hUjOouzOwb9hiwnrP9H -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB42hUjOouzOwb9hiwnrP9H">
+        <rdfs:label>Pareto Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5ERBfoKbQaaCjGHb6Lsic -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB5ERBfoKbQaaCjGHb6Lsic">
+        <rdfs:label>Min Conflicts Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5qsd1pK7mxP4zOyZtmhqw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB5qsd1pK7mxP4zOyZtmhqw">
+        <rdfs:label>Miller-Rabin Primality Test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7bApM42CW6GS7hPD8VU4X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB7bApM42CW6GS7hPD8VU4X">
+        <rdfs:label>Differential Evolution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7iINMqkXhVumLJOt5VNJu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB7iINMqkXhVumLJOt5VNJu">
+        <rdfs:label>Division Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8MPZgvtb7LRXS0mSqSguP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8MPZgvtb7LRXS0mSqSguP">
+        <rdfs:label>Goldschmidt Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB7iINMqkXhVumLJOt5VNJu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAKIzuex4hVkPVUothFY7X -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBAKIzuex4hVkPVUothFY7X">
+        <rdfs:label>Jump and Walk Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCt5OgrEA03HoL3b9FLTHW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBCt5OgrEA03HoL3b9FLTHW">
+        <rdfs:label>Tanimoto Score</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFduEhFgmAjR0LR3AGyTuG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFduEhFgmAjR0LR3AGyTuG">
+        <rdfs:label>Baillie-PSW Primality Test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBG5eQ7NUnN1OifklJDes3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBG5eQ7NUnN1OifklJDes3">
+        <rdfs:label>Pollard&apos;s Rho Algorithm for Logarithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7r4ABzaUz8ul5P0Is8vZZH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLEKx3xnwjeJAH20GbEOWM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBLEKx3xnwjeJAH20GbEOWM">
+        <rdfs:label>C4.5 Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCXu6hp7cOJDF5a78E679Bc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLiF3veIkuvFeesvZqNILt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBLiF3veIkuvFeesvZqNILt">
+        <rdfs:label>Kadane&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8sIQu2SemShqAP1JbvLAdc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBMGjWDzDI96x30MLNtgsnD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBMGjWDzDI96x30MLNtgsnD">
+        <rdfs:label>Chaff Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBMKqkWv7kFOsJtKlt8QzY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBMKqkWv7kFOsJtKlt8QzY">
+        <rdfs:label>Alpha-beta Pruning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBNy2UYaOWTDOHT66jd3ghZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBNy2UYaOWTDOHT66jd3ghZ">
+        <rdfs:label>Other</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBPLGtp2UY7AarWF6OXduIK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPLGtp2UY7AarWF6OXduIK">
+        <rdfs:label>Rotating Calipers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Hp2hOYV9uKrRsMXqR7hYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBPPWPCDg1cd8z1ukQ0dpVr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPPWPCDg1cd8z1ukQ0dpVr">
+        <rdfs:label>Basic Local Alignment Search Tool</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj">
+        <rdfs:label>Application</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RHb3NGU2X9aYdfQ4xNfTFs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/REiWmRT9kUw2f9nAF4Cl0Q"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9I1KAfna0AzRim4WnFvygL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RJMLovw5dCGTyum8afdbHM"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RtJsEvhbJGRhHLeopT8ub"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R3saVGH3EexpVUFdlEkhQR"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCnRrY23Cdm7NgL35zqwdYJ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBSrQdm6kyaYMoNvC8tKObB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBSrQdm6kyaYMoNvC8tKObB">
+        <rdfs:label>Locality-sensitive Hashing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVJFcvPHwrsdRClGrxZRgx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVJFcvPHwrsdRClGrxZRgx">
+        <rdfs:label>Knuth-Bendix Completion Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVyZfaGHsniPOzjCDJ6JDT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVyZfaGHsniPOzjCDJ6JDT">
+        <rdfs:label>Hybrid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBWgHFzc0isax3QQpDr7I6h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBWgHFzc0isax3QQpDr7I6h">
+        <rdfs:label>Cubic Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZLGFIG59i7VaxX4XKMH2O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBZLGFIG59i7VaxX4XKMH2O">
+        <rdfs:label>Hidden Markov Model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RoVvGwn56iyB2SGAJvr6LF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbo7t0Q7D7XJeG0IHLdqY5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBbo7t0Q7D7XJeG0IHLdqY5">
+        <rdfs:label>Bentley-Ottmann Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdQnHnZuHspbrmAPB0qfKd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBdQnHnZuHspbrmAPB0qfKd">
+        <rdfs:label>Polygon Triangulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBfLQiZzZ4kg2KZc6X9IyOV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBfLQiZzZ4kg2KZc6X9IyOV">
+        <rdfs:label>Delayed Column Generation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7f0tQJJTznQXhMVk11R1vl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBfaSn3No3pS8Z708xQJISk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBfaSn3No3pS8Z708xQJISk">
+        <rdfs:label>Minimum Degree Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R72Hd5vCylMVjIwr2GHMOXP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBhXiIyZtt150Zozxa6RDr0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBhXiIyZtt150Zozxa6RDr0">
+        <rdfs:label>String Metrics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD1XBFfAeog0wod9N7I4UnJ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBihxqHWfr0K0jyaiYOsus1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBihxqHWfr0K0jyaiYOsus1">
+        <rdfs:label>Lloyd&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBjO7Lp6SzOLEbmiht2XTh7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBjO7Lp6SzOLEbmiht2XTh7">
+        <rdfs:label>Integer Linear Programming</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7f0tQJJTznQXhMVk11R1vl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlCS9jLP1BMC0ql1TMM19W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlCS9jLP1BMC0ql1TMM19W">
+        <rdfs:label>Imaging</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlIYyc8p3Hf76OpiP3VB1D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlIYyc8p3Hf76OpiP3VB1D">
+        <rdfs:label>K-Medioids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBldtDw0iq8SBSVblJ5zf8B -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBldtDw0iq8SBSVblJ5zf8B">
+        <rdfs:label>Smoothsort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlunt0hHI7lJj4AO4NXbG9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlunt0hHI7lJj4AO4NXbG9">
+        <rdfs:label>Tricubic Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8juD5ZS1liXuK532aP3bSI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmKS8U9NHoy5YyQp760Uuy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmKS8U9NHoy5YyQp760Uuy">
+        <rdfs:label>Bailey-Borwein-Plouffe Formula</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RftBsJsaPN4qa1lFnePkYo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmS8N3LKhNFgzsgifuTQfb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmS8N3LKhNFgzsgifuTQfb">
+        <rdfs:label>Davis-Putnam Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmfyc4kGoGFIM9SAsiNQ6M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmfyc4kGoGFIM9SAsiNQ6M">
+        <rdfs:label>Hamming Distance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBhXiIyZtt150Zozxa6RDr0"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmxwJ5KNiEp7DI15KbWsrz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmxwJ5KNiEp7DI15KbWsrz">
+        <rdfs:label>Levinston Recursion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBo6Q3uhKg82vKvUtBPFrUd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBo6Q3uhKg82vKvUtBPFrUd">
+        <rdfs:label>Fermat Primality Test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBo9lQUO4OTPeAyoVSoLXvQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBo9lQUO4OTPeAyoVSoLXvQ">
+        <rdfs:label>Combinatorial Optimization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpS2lB4KGZULTHwH4BOlnQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpS2lB4KGZULTHwH4BOlnQ">
+        <rdfs:label>Estimation Theory</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpV843xWn0SmC30JTRUvr5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpV843xWn0SmC30JTRUvr5">
+        <rdfs:label>Minmax</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBr3W0ur7Wa4gaQ6Fv5Jb2D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBr3W0ur7Wa4gaQ6Fv5Jb2D">
+        <rdfs:label>Physics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrDwE8qmzrLXJgAHh6qAdB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBrDwE8qmzrLXJgAHh6qAdB">
+        <rdfs:label>Memetic Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDEQEkGRTAyHAEhv62GtVce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrK4SAvzBN7692SMdKmUNE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBrK4SAvzBN7692SMdKmUNE">
+        <rdfs:label>Logistic Regression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REiTWSRmsZZB31zi2FnFV7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrPUsFEtdexpGlAppyZJfr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBrPUsFEtdexpGlAppyZJfr">
+        <rdfs:label>SRT Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB7iINMqkXhVumLJOt5VNJu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBt0edGKXGV3Imm5PVWnwyE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBt0edGKXGV3Imm5PVWnwyE">
+        <rdfs:label>Bowyer-Watson Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R1DxDsYmsW5FafwPQlro1l"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtFAwPXaAy2AFdNyecorc1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBtFAwPXaAy2AFdNyecorc1">
+        <rdfs:label>Branch and Cut</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBjO7Lp6SzOLEbmiht2XTh7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtwn9cI9RsuwKJiNOziTsN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBtwn9cI9RsuwKJiNOziTsN">
+        <rdfs:label>Gibbs Sampling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyyLSdlialeLOuE0zF8fiV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvjh4yLqONojKZIxLwHO7z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBvjh4yLqONojKZIxLwHO7z">
+        <rdfs:label>Crank-Nicolson Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R89OeNrh4KPsR4O9I07ab1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwAgDc1jvKalRCD7gPoM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBwAgDc1jvKalRCD7gPoM">
+        <rdfs:label>Merging</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RByOesUkaNHRPpntXcwMRWd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RByOesUkaNHRPpntXcwMRWd">
+        <rdfs:label>Kosaraju&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95nCNDyTGvFGi2mboCQhvs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RByPlWGkksphCihyaNkKTBj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RByPlWGkksphCihyaNkKTBj">
+        <rdfs:label>Flashsort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVyZfaGHsniPOzjCDJ6JDT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBytS4oIqgvWSEcg7bTar3D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBytS4oIqgvWSEcg7bTar3D">
+        <rdfs:label>Hopfield Net</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBz21iZQ7fRHkHuMMbHIsiT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBz21iZQ7fRHkHuMMbHIsiT">
+        <rdfs:label>Shoelace Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzrTe3ZMYgDhsiz4OsDbCh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzrTe3ZMYgDhsiz4OsDbCh">
+        <rdfs:label>ICA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1LphYKYg7W9gWlWFIwpKI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1LphYKYg7W9gWlWFIwpKI">
+        <rdfs:label>Selection Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1cg2PzRpJ7RqRhrLQWqcz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1cg2PzRpJ7RqRhrLQWqcz">
+        <rdfs:label>Level Set Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2aLy3nCZz5kBsi2fyNgC5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC2aLy3nCZz5kBsi2fyNgC5">
+        <rdfs:label>Daitch-Mokotoff Soundex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9YpJMpVSyN21Np3x79uJ1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC32CQEcoKgZmoaYNBdrUSl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC32CQEcoKgZmoaYNBdrUSl">
+        <rdfs:label>Cuthiill-McKee Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R72Hd5vCylMVjIwr2GHMOXP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6AWPDBqAMAj6ePgMhYEAz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC6AWPDBqAMAj6ePgMhYEAz">
+        <rdfs:label>Statistics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC7Hw5kTf1CDol3IwrQXC27 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC7Hw5kTf1CDol3IwrQXC27">
+        <rdfs:label>Introsort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVyZfaGHsniPOzjCDJ6JDT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8DBxXPbOivPmOBsaqtizr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8DBxXPbOivPmOBsaqtizr">
+        <rdfs:label>Needleman-Wunsch Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8k8VrnCraQUintE7gZsXp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8k8VrnCraQUintE7gZsXp">
+        <rdfs:label>Eclat Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RXInO1NzEvsqutdpx3xcK5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8xxBJx7yIi0Gw0usoWhw1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8xxBJx7yIi0Gw0usoWhw1">
+        <rdfs:label>Shortest Common Supersequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8sIQu2SemShqAP1JbvLAdc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9EdOTwzfPvbo8EvLjgnuq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC9EdOTwzfPvbo8EvLjgnuq">
+        <rdfs:label>Quasitriangulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7SzWfYrEW3Vflukdxgpi0S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9wovvzHciB7xyqNvQZzcZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC9wovvzHciB7xyqNvQZzcZ">
+        <rdfs:label>Extended Euclidean Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCAbaR9JckhgmtNSPo01ix7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCAbaR9JckhgmtNSPo01ix7">
+        <rdfs:label>Insertion Sorts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBMyKNf6uze7aWGhwQp7Y8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBMyKNf6uze7aWGhwQp7Y8">
+        <rdfs:label>Inverse Iteration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qcil4EgsOeHKlqKmmEpFD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk">
+        <rdfs:label>Number Theory</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCjxQMzvXqUo7FhYyKa2Jz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCjxQMzvXqUo7FhYyKa2Jz">
+        <rdfs:label>Symbolic Cholesky</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R72Hd5vCylMVjIwr2GHMOXP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDgkTurRMNwsvnjsvPdA2A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCDgkTurRMNwsvnjsvPdA2A">
+        <rdfs:label>Finite Differences Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R89OeNrh4KPsR4O9I07ab1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCGosX1KlHc4gAI4ERr5mfB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCGosX1KlHc4gAI4ERr5mfB">
+        <rdfs:label>Benson&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7f0tQJJTznQXhMVk11R1vl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCIOv63pupGuKsFOqAMsT7Z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCIOv63pupGuKsFOqAMsT7Z">
+        <rdfs:label>Ruppert&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9SL5S2ZnM3RzSqa1mqlTsJ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCIbyrwasW5ztuba6nK82qw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCIbyrwasW5ztuba6nK82qw">
+        <rdfs:label>Odd-even Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT8F0cNUNkFJC7LRzCvE1v"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJCELCwRd40C456Ourt7aN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJCELCwRd40C456Ourt7aN">
+        <rdfs:label>Demon Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyyLSdlialeLOuE0zF8fiV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJhAcQ1heTibPoeeQj7OIF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJhAcQ1heTibPoeeQj7OIF">
+        <rdfs:label>Prim&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8f8fJwsigLyN2gb6KY3ANP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKDxuYPtcEcUIfqlaWzO33 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKDxuYPtcEcUIfqlaWzO33">
+        <rdfs:label>Stochastic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDEQEkGRTAyHAEhv62GtVce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKQLwYiqHdKdBxAzIyt2UY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKQLwYiqHdKdBxAzIyt2UY">
+        <rdfs:label>Mean-shift</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMTuBJLWBEJQtvO4Bl6N8c -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCMTuBJLWBEJQtvO4Bl6N8c">
+        <rdfs:label>Tournament Selection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlB1akny7mOTTWSnfYb9ly"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCO3aKi7dX42PlCOPcsUtRN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCO3aKi7dX42PlCOPcsUtRN">
+        <rdfs:label>Merge Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7YGLspJcdK5QulLDHJownQ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCOToynv6KaCHyibuuK03mn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCOToynv6KaCHyibuuK03mn">
+        <rdfs:label>Sweep and Prune</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBr3W0ur7Wa4gaQ6Fv5Jb2D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCOaHhaTenKJw1xfVZCwrSb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCOaHhaTenKJw1xfVZCwrSb">
+        <rdfs:label>Canopy Clustering Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPbPKHQSAhAOyA2Y4XUSnD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCPbPKHQSAhAOyA2Y4XUSnD">
+        <rdfs:label>Pohlig-Hellman Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7r4ABzaUz8ul5P0Is8vZZH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQdY0a4waElIv2qxRZe7DA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCQdY0a4waElIv2qxRZe7DA">
+        <rdfs:label>Nelder-Mead Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCZwaKIq3pOywlRDCVwrAhB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSYo1BRhDMnw4peWqXXFvV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSYo1BRhDMnw4peWqXXFvV">
+        <rdfs:label>Kalman Filter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpS2lB4KGZULTHwH4BOlnQ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCT1RW9FSIdyrwi66SXFA0Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCT1RW9FSIdyrwi66SXFA0Q">
+        <rdfs:label>Perceptron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF">
+        <rdfs:label>DIstance Metrics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCT8F0cNUNkFJC7LRzCvE1v -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCT8F0cNUNkFJC7LRzCvE1v">
+        <rdfs:label>Selection Sorts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5">
+        <rdfs:label>Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTqAKhr8v2UoiAccDTLv9f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCTqAKhr8v2UoiAccDTLv9f">
+        <rdfs:label>Computer Architecture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTsDInpJJbzqD9FtsddOPM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCTsDInpJJbzqD9FtsddOPM">
+        <rdfs:label>Monotone Cubic Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTvpRMnOuM1D6T7jxe8Oh8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCTvpRMnOuM1D6T7jxe8Oh8">
+        <rdfs:label>Dixon&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCU0FYRVeFboRPKEhrR1LBL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCU0FYRVeFboRPKEhrR1LBL">
+        <rdfs:label>Booth&apos;s Multiplication Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RkxkuqNLbJ2qR80RqPWu8V"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCU6bRkwuAhebDUaXisWv6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCU6bRkwuAhebDUaXisWv6">
+        <rdfs:label>Euler Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94NbElZupcHj9lepx6b2vm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCVLJe0phy1kG2ojj22gvwQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCVLJe0phy1kG2ojj22gvwQ">
+        <rdfs:label>Pollard&apos;s p-1 Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCW9J76OxTU3jZ790hGvkdl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCW9J76OxTU3jZ790hGvkdl">
+        <rdfs:label>Force Based</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYyej4WRHLNSqjrvttgTKm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXu6hp7cOJDF5a78E679Bc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCXu6hp7cOJDF5a78E679Bc">
+        <rdfs:label>Decision Trees</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuBMydeL3OPBH3tWmEsoL8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXvxtZlWEhRO4JmmP8WCud -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCXvxtZlWEhRO4JmmP8WCud">
+        <rdfs:label>Jacobi Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qcil4EgsOeHKlqKmmEpFD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZwaKIq3pOywlRDCVwrAhB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCZwaKIq3pOywlRDCVwrAhB">
+        <rdfs:label>Nonlinear Optimization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaLOWb4tck9S4T7FlVHb9R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaLOWb4tck9S4T7FlVHb9R">
+        <rdfs:label>PCA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCb5xiU41u4Ck3Yt2gVGg1d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCb5xiU41u4Ck3Yt2gVGg1d">
+        <rdfs:label>Ground State Approximation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBr3W0ur7Wa4gaQ6Fv5Jb2D"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcb4pjaAcI8dm84YopM4gd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcb4pjaAcI8dm84YopM4gd">
+        <rdfs:label>Damerau-Levenshtein Distance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBhXiIyZtt150Zozxa6RDr0"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcq0D11g7SiDDh0Nrw8tnX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcq0D11g7SiDDh0Nrw8tnX">
+        <rdfs:label>Subset Sum Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcs6RFoMvBjgcF443cXNn8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcs6RFoMvBjgcF443cXNn8">
+        <rdfs:label>Cross-entropy Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdqYuZZwOlIjN15aGcnRvz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCdqYuZZwOlIjN15aGcnRvz">
+        <rdfs:label>BFGS Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCZwaKIq3pOywlRDCVwrAhB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdyZXbWKrt3ny8Ga1f04Rk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCdyZXbWKrt3ny8Ga1f04Rk">
+        <rdfs:label>Bucket Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCflmXmE3xqVDrS5H7lVuRr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCflmXmE3xqVDrS5H7lVuRr">
+        <rdfs:label>Halley&apos;s Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCgcdQA5gg7IcBc4EJLeCMZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgcdQA5gg7IcBc4EJLeCMZ">
+        <rdfs:label>BIRCH</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjTjplnQWF78s3yAPxCZIs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCjTjplnQWF78s3yAPxCZIs">
+        <rdfs:label>Extrapolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkSZZuBfSuQYeWN5CEEYtj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCkSZZuBfSuQYeWN5CEEYtj">
+        <rdfs:label>Geometric Hashing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCu0CkL8NUQkCIe2EpccPl7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCu0CkL8NUQkCIe2EpccPl7">
+        <rdfs:label>Q-Learning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMUnPoqLreLefoQ8R79YXM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCuC9U8cT0b7gFf7jDLUIpm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCuC9U8cT0b7gFf7jDLUIpm">
+        <rdfs:label>Gilbert-Johnson-Keerthi Distance Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvKof2EbZ14PswO6DFm9RS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCvKof2EbZ14PswO6DFm9RS">
+        <rdfs:label>Chan&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REcG6ljJoGma8Qv9AYruRg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvY7GP47pUVm0MQjTVUZfF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCvY7GP47pUVm0MQjTVUZfF">
+        <rdfs:label>Stooge Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qt6fI0Tv9zodggdzBZo78"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCyDtD3g9FQQ6xtmWGrtCQI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCyDtD3g9FQQ6xtmWGrtCQI">
+        <rdfs:label>Gift Wrapping Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REcG6ljJoGma8Qv9AYruRg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzQdGLx4iV3qNP5c9WKNNv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzQdGLx4iV3qNP5c9WKNNv">
+        <rdfs:label>Radial Basis Function Network</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzrEqKksKTfdm1DT1DbnpF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzrEqKksKTfdm1DT1DbnpF">
+        <rdfs:label>Runge-Kutta Methods</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RmwahVMYwfboSTLXGU1UJt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0rFIZCXecsMSbLu6pkM7x -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0rFIZCXecsMSbLu6pkM7x">
+        <rdfs:label>Reverse-delete Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8f8fJwsigLyN2gb6KY3ANP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1Et07ahnXOS4bGzkjARUP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1Et07ahnXOS4bGzkjARUP">
+        <rdfs:label>NYSIIS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9YpJMpVSyN21Np3x79uJ1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1OHOYr0PegCe4wyqtfvLa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1OHOYr0PegCe4wyqtfvLa">
+        <rdfs:label>Kirkpatrick-Seidel Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REcG6ljJoGma8Qv9AYruRg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1SgxG2xOeViHclKHyp4cu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1SgxG2xOeViHclKHyp4cu">
+        <rdfs:label>Quick-Hull</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REcG6ljJoGma8Qv9AYruRg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1XBFfAeog0wod9N7I4UnJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1XBFfAeog0wod9N7I4UnJ">
+        <rdfs:label>Matching</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1c9f4qaXHjzC4w46e0E0w -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1c9f4qaXHjzC4w46e0E0w">
+        <rdfs:label>De Boor Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDP3jjrYeq1xjnpumohbIbm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1ePYV4r6MOzEGM5mva7xC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1ePYV4r6MOzEGM5mva7xC">
+        <rdfs:label>Tarjan&apos;s Strongly Connected Components Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R95nCNDyTGvFGi2mboCQhvs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2uwXzUAZgKbtOGJVYY9V6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD2uwXzUAZgKbtOGJVYY9V6">
+        <rdfs:label>Levensberg-Marquardt Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCZwaKIq3pOywlRDCVwrAhB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDA5dl0XJH3iYAySvII5E3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDA5dl0XJH3iYAySvII5E3">
+        <rdfs:label>Algorithm X</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RedRM3OseTWGX1Ztj6TVGg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAEwZwjhfhREGWNjiQFomO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAEwZwjhfhREGWNjiQFomO">
+        <rdfs:label>Fisher-Yates Shuffle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8B6UKqHlAQws0kmZ1KG5qw"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAURf0PhVJLPm748Ll8jMl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAURf0PhVJLPm748Ll8jMl">
+        <rdfs:label>Risch Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAhnK6J56fiBCEMuEcMkP9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAhnK6J56fiBCEMuEcMkP9">
+        <rdfs:label>Metaphone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9YpJMpVSyN21Np3x79uJ1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAqCXBe0Xd6QdbK4KeWSsy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAqCXBe0Xd6QdbK4KeWSsy">
+        <rdfs:label>Exponentiation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEQEkGRTAyHAEhv62GtVce -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDEQEkGRTAyHAEhv62GtVce">
+        <rdfs:label>Evolutionary Inspired</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDF4P93dbORPR1CZbcavcgO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDF4P93dbORPR1CZbcavcgO">
+        <rdfs:label>Lanczos Interation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qcil4EgsOeHKlqKmmEpFD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFv5XlTjkcZJHrqwso9jkv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDFv5XlTjkcZJHrqwso9jkv">
+        <rdfs:label>Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJjVB1VdAwZ3vvbWe0Fjtw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDJjVB1VdAwZ3vvbWe0Fjtw">
+        <rdfs:label>Congruence of Squares</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK8iJs1TjcjTSMCxOHggIQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK8iJs1TjcjTSMCxOHggIQ">
+        <rdfs:label>Average-linkage Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKpu7glItXLQN2VNeLOaYo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDKpu7glItXLQN2VNeLOaYo">
+        <rdfs:label>Hungarian Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBo9lQUO4OTPeAyoVSoLXvQ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDM2Qlr7ygeCDjRwbBgqYdk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDM2Qlr7ygeCDjRwbBgqYdk">
+        <rdfs:label>Aho-Corasick String Matching Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMToLpaevvylIRe1iuAk9P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDMToLpaevvylIRe1iuAk9P">
+        <rdfs:label>Easter Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RHjroyIGDYTcb9N8HzgVEl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOh17sldlYUjqAWgZuElEg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDOh17sldlYUjqAWgZuElEg">
+        <rdfs:label>LDA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOkJtc9EvJjccWJCLxMKjL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDOkJtc9EvJjccWJCLxMKjL">
+        <rdfs:label>Strassen Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReiABsiTh3dZ9lfS0S06MC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDP3jjrYeq1xjnpumohbIbm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDP3jjrYeq1xjnpumohbIbm">
+        <rdfs:label>Spline Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPD9nkzeMrMEIo0FmTcWSm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPD9nkzeMrMEIo0FmTcWSm">
+        <rdfs:label>Counting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPylzqrZCi7CWiJX2r52bp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPylzqrZCi7CWiJX2r52bp">
+        <rdfs:label>Special Number Field Sieve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDR0fKSMDEO38D2dqC60KL6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDR0fKSMDEO38D2dqC60KL6">
+        <rdfs:label>Knuth-Morris-Pratt Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRxPgxycVVQNoDH5tonYH1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDRxPgxycVVQNoDH5tonYH1">
+        <rdfs:label>Toom-Cook Multiplication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDn9Cz3uTWc4F2UfNoHB1kM"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RkxkuqNLbJ2qR80RqPWu8V"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSMpDlQzFebz8I1DCk8lLX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSMpDlQzFebz8I1DCk8lLX">
+        <rdfs:label>Gradient Descent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUIooSaVwom0IGMwKMpkJR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUIooSaVwom0IGMwKMpkJR">
+        <rdfs:label>Relevance Vector Machine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbNatPJrxcVSN0nAGfy8uM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUNXWZhe5AhQmDk7od51eo">
+        <rdfs:label>Sorting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUf3cS9pQZVDLRyhUeQGWE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUf3cS9pQZVDLRyhUeQGWE">
+        <rdfs:label>t-SNE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7gimQwj9QQIhiPsHcQY6b7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv">
+        <rdfs:label>Neural Nets</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDV6EIodRyvqGBoIkDexj0p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDV6EIodRyvqGBoIkDexj0p">
+        <rdfs:label>Bayes Net</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RoVvGwn56iyB2SGAJvr6LF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWCfUNRhZJUzdnQQmRKAEK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDWCfUNRhZJUzdnQQmRKAEK">
+        <rdfs:label>Stemming Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84lS1URNRkfVWMK4v0CjrS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXQofSQyX1bPkCen8fr4JK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDXQofSQyX1bPkCen8fr4JK">
+        <rdfs:label>Convolution Neural Network</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZ5rrMOjM3HgFVn3yUU1lX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZ5rrMOjM3HgFVn3yUU1lX">
+        <rdfs:label>Greedy Randomized Adaptive Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBo9lQUO4OTPeAyoVSoLXvQ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZ7auVzIQFrMNWbWBbeEV5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZ7auVzIQFrMNWbWBbeEV5">
+        <rdfs:label>Prime Factorization Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZR2kfMpIFRggTIf4xHoRN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZR2kfMpIFRggTIf4xHoRN">
+        <rdfs:label>Multilayer Perceptron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZcjp9QptTCYu9XdiDDWPl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZcjp9QptTCYu9XdiDDWPl">
+        <rdfs:label>Odd&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDe9woaqiXwICdE7xlTXZha -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDe9woaqiXwICdE7xlTXZha">
+        <rdfs:label>Nearest Neighbor Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDf0HksgIFb2rW7bzGxNKIf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDf0HksgIFb2rW7bzGxNKIf">
+        <rdfs:label>Boosting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfMHXYvGYosDbN1OtOyLH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfMHXYvGYosDbN1OtOyLH">
+        <rdfs:label>Simple Merge Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwAgDc1jvKalRCD7gPoM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgA96JDtElTpR4ZdmXeEQX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDgA96JDtElTpR4ZdmXeEQX">
+        <rdfs:label>Self Organizing Map</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDge6pfNXnxeP7mP9o9fBub -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDge6pfNXnxeP7mP9o9fBub">
+        <rdfs:label>BIomedical Informatics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgzFDVl6AH8X8Wb5cY6io0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDgzFDVl6AH8X8Wb5cY6io0">
+        <rdfs:label>Patience Sorting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCAbaR9JckhgmtNSPo01ix7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDhfpHiD3tgzd4ZxkAPDExO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDhfpHiD3tgzd4ZxkAPDExO">
+        <rdfs:label>Exponentiating by Squaring</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDAqCXBe0Xd6QdbK4KeWSsy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkXHbnkZaXUsj4C8VS6k23 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkXHbnkZaXUsj4C8VS6k23">
+        <rdfs:label>Pollard&apos;s Rho Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkoiXP65IMAnjDm70qm0pt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkoiXP65IMAnjDm70qm0pt">
+        <rdfs:label>BKM Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hQPm3b5nBfBu7LnhQS7rk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDl8yoN3S7SAYGUnPKhrK4r -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDl8yoN3S7SAYGUnPKhrK4r">
+        <rdfs:label>Summation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlB1akny7mOTTWSnfYb9ly -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlB1akny7mOTTWSnfYb9ly">
+        <rdfs:label>Genetic Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDEQEkGRTAyHAEhv62GtVce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlWK9GaissAYVuIodTTaPA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlWK9GaissAYVuIodTTaPA">
+        <rdfs:label>Pollard&apos;s Kangaroo Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlfOL5WIHmJv53cdQHmBy2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlfOL5WIHmJv53cdQHmBy2">
+        <rdfs:label>Fuzzy Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDn9Cz3uTWc4F2UfNoHB1kM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDn9Cz3uTWc4F2UfNoHB1kM">
+        <rdfs:label>Multiplication Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDoT19eFHZOoui9drJ84KKr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDoT19eFHZOoui9drJ84KKr">
+        <rdfs:label>Structured SVM</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbNatPJrxcVSN0nAGfy8uM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDqlFjUTO4H710AiZGt7VVL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDqlFjUTO4H710AiZGt7VVL">
+        <rdfs:label>General Number Field Sieve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe">
+        <rdfs:label>Alignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDrbiA2BjSl8eyPMJcIa0yW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDrbiA2BjSl8eyPMJcIa0yW">
+        <rdfs:label>Line Search</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDsDqXtEK3hIh5C8EB4mZAl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDsDqXtEK3hIh5C8EB4mZAl">
+        <rdfs:label>Polynomial Long Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDseJ9vqdHmsDcoS5Yjamvn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDseJ9vqdHmsDcoS5Yjamvn">
+        <rdfs:label>Bogosort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7qt6fI0Tv9zodggdzBZo78"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtLSJMKNp89lyhZBuP0H5A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDtLSJMKNp89lyhZBuP0H5A">
+        <rdfs:label>Dynamic Programming</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtLeMDnqKirzHWAp0TxhWS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDtLeMDnqKirzHWAp0TxhWS">
+        <rdfs:label>Manning Criteria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGPPwWViwDhDUh9LrAt5IC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtrh2dNswKhCL48ank9RG4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDtrh2dNswKhCL48ank9RG4">
+        <rdfs:label>Postman Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxZvW9vqH3oKEak1ljh44F -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDxZvW9vqH3oKEak1ljh44F">
+        <rdfs:label>Backpropogation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxn1vbU7bEkcY0jm4xsl8M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDxn1vbU7bEkcY0jm4xsl8M">
+        <rdfs:label>Muller&apos;s Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9">
+        <rdfs:label>Integer Factorization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyyLSdlialeLOuE0zF8fiV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDyyLSdlialeLOuE0zF8fiV">
+        <rdfs:label>Monte Carlo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWyrskbI4hBheOaCYuo0mi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REUxqQDYdqWU2tGGIaOMFO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REUxqQDYdqWU2tGGIaOMFO">
+        <rdfs:label>Simplex Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7f0tQJJTznQXhMVk11R1vl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REcG6ljJoGma8Qv9AYruRg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REcG6ljJoGma8Qv9AYruRg">
+        <rdfs:label>Convex Hull Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REiTWSRmsZZB31zi2FnFV7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REiTWSRmsZZB31zi2FnFV7">
+        <rdfs:label>Regression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGPPwWViwDhDUh9LrAt5IC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGPPwWViwDhDUh9LrAt5IC">
+        <rdfs:label>Decision Support</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGkp00oR6Kv3v05gxl6bEz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGkp00oR6Kv3v05gxl6bEz">
+        <rdfs:label>Burstsort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD">
+        <rdfs:label>Geometry</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHjroyIGDYTcb9N8HzgVEl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RHjroyIGDYTcb9N8HzgVEl">
+        <rdfs:label>Dates</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHszL8WwSDkMvhdRNaXIoj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RHszL8WwSDkMvhdRNaXIoj">
+        <rdfs:label>Single-linkage Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReFjxBOTf5tpX6EP5RstYj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RISse3lSI7LwQ36SCcZneD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RISse3lSI7LwQ36SCcZneD">
+        <rdfs:label>Pigeonhole Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIzn9oltzI2Sy0dz7sZYSW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RIzn9oltzI2Sy0dz7sZYSW">
+        <rdfs:label>Alpha Max Plus Beta Min Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RK2jodk3uJiv4ntzngzxXa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RK2jodk3uJiv4ntzngzxXa">
+        <rdfs:label>Restoring Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB7iINMqkXhVumLJOt5VNJu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKEBwi8zuMRFfcBhCZCBWM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RKEBwi8zuMRFfcBhCZCBWM">
+        <rdfs:label>De Casteljau&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDP3jjrYeq1xjnpumohbIbm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLDI8RTHu2jaWAPAU5qW4Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLDI8RTHu2jaWAPAU5qW4Y">
+        <rdfs:label>Gauss-Legendre Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RftBsJsaPN4qa1lFnePkYo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLvOcWO0tKltSuTm9GUJ90 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLvOcWO0tKltSuTm9GUJ90">
+        <rdfs:label>Linde-Buzo-Gray Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMEqjqlsR6fEoaQZJr5JaV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMEqjqlsR6fEoaQZJr5JaV">
+        <rdfs:label>Zhu-Takaoka String Matching Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMUnPoqLreLefoQ8R79YXM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMUnPoqLreLefoQ8R79YXM">
+        <rdfs:label>Reinforcement Learning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMvXR3qTu9zEHlHupsfs9d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMvXR3qTu9zEHlHupsfs9d">
+        <rdfs:label>Boyer-Moore-Horspool Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNc1IBuc26fyyFBIPMChlb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNc1IBuc26fyyFBIPMChlb">
+        <rdfs:label>Linear Regression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REiTWSRmsZZB31zi2FnFV7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNheLEj8ZU7ZkexNsGQTPp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNheLEj8ZU7ZkexNsGQTPp">
+        <rdfs:label>LPBoost</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDf0HksgIFb2rW7bzGxNKIf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RO7GM9NvcgcSqUkwfvoBNo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RO7GM9NvcgcSqUkwfvoBNo">
+        <rdfs:label>Bubble Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT8F0cNUNkFJC7LRzCvE1v"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RO8Wrqyi2mI0QBVzU7aXZq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RO8Wrqyi2mI0QBVzU7aXZq">
+        <rdfs:label>Quicksort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT8F0cNUNkFJC7LRzCvE1v"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROZtavSv9aUomMeaqICYm6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROZtavSv9aUomMeaqICYm6">
+        <rdfs:label>Boyer-Moore String Search Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OdwPwXKqCwikKyUdsvj1S"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQXWklqXjjBytGN16LgnLh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQXWklqXjjBytGN16LgnLh">
+        <rdfs:label>Gene Expression Programming</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDEQEkGRTAyHAEhv62GtVce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RR8JRzHVgP8EWxtGyFfnzl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RR8JRzHVgP8EWxtGyFfnzl">
+        <rdfs:label>Chain Matrix Multiplication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSQ3N1Hvq54CebWqsWr1Hl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSQ3N1Hvq54CebWqsWr1Hl">
+        <rdfs:label>Shell Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCAbaR9JckhgmtNSPo01ix7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSZIfvqW2xHAV3bOduXd0K -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSZIfvqW2xHAV3bOduXd0K">
+        <rdfs:label>Freivalds&apos; Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReiABsiTh3dZ9lfS0S06MC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu">
+        <rdfs:label>Solving Linear Equations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUtBGg25kh4YwOaMFINDBU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUtBGg25kh4YwOaMFINDBU">
+        <rdfs:label>Closest Pair Problem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVYieAIaHB0KgXOfRjSEcR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVYieAIaHB0KgXOfRjSEcR">
+        <rdfs:label>Variational Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCb5xiU41u4Ck3Yt2gVGg1d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVhRit8WSohrDwsTDu3yin -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVhRit8WSohrDwsTDu3yin">
+        <rdfs:label>Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVoKb89PkM5NqwXDIIob5d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVoKb89PkM5NqwXDIIob5d">
+        <rdfs:label>Variance Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWCGxDFs0WpJHToZx4h96s -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWCGxDFs0WpJHToZx4h96s">
+        <rdfs:label>Point Set Registration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Hp2hOYV9uKrRsMXqR7hYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWWDBHkykM2VMsROJ4IFUi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWWDBHkykM2VMsROJ4IFUi">
+        <rdfs:label>K Nearest Neighbors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuBMydeL3OPBH3tWmEsoL8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWp6MSP0r1hgzF8xvJtuxr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWp6MSP0r1hgzF8xvJtuxr">
+        <rdfs:label>Fuzzy C-Means</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlfOL5WIHmJv53cdQHmBy2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWyrskbI4hBheOaCYuo0mi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWyrskbI4hBheOaCYuo0mi">
+        <rdfs:label>Sampling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8VA3nmwEfOjj1P4lInWFL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXInO1NzEvsqutdpx3xcK5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXInO1NzEvsqutdpx3xcK5">
+        <rdfs:label>Association Rules</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXLkdfFLWoB5vzHRWr2lY2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXLkdfFLWoB5vzHRWr2lY2">
+        <rdfs:label>Odlyzko-Schonhage Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0">
+        <rdfs:label>Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYcOY7j3Kiq60BfwRXng0F -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYcOY7j3Kiq60BfwRXng0F">
+        <rdfs:label>Lucas Primality Test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYyej4WRHLNSqjrvttgTKm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYyej4WRHLNSqjrvttgTKm">
+        <rdfs:label>Graph Theory</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZ2BIYEl5T22hm5gXVFAHl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZ2BIYEl5T22hm5gXVFAHl">
+        <rdfs:label>Lesk Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84lS1URNRkfVWMK4v0CjrS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZs3V3arbSg6xzRkuTnLmo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZs3V3arbSg6xzRkuTnLmo">
+        <rdfs:label>Bootstrapping</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZxY2kG4iTgKXT9vgSkbDk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZxY2kG4iTgKXT9vgSkbDk">
+        <rdfs:label>Biconjugate Gradient Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ra1bIATJUgESMG9AqU4oE3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ra1bIATJUgESMG9AqU4oE3">
+        <rdfs:label>Linear Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaY62Ls6zpyocWO4XJyZmc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RaY62Ls6zpyocWO4XJyZmc">
+        <rdfs:label>Cantor-Zassenhaus Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rah91S42wqfJqiyTHnfZkx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rah91S42wqfJqiyTHnfZkx">
+        <rdfs:label>Davis-Putnam-Logemann-Loveland Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbBshGQmxWw9KQzU0ZvCmm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbBshGQmxWw9KQzU0ZvCmm">
+        <rdfs:label>Verlet Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94NbElZupcHj9lepx6b2vm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbNatPJrxcVSN0nAGfy8uM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbNatPJrxcVSN0nAGfy8uM">
+        <rdfs:label>Support Vector Machine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuBMydeL3OPBH3tWmEsoL8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX">
+        <rdfs:label>Special Methods</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReCVxfp8o4lPwrH25PP62V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReCVxfp8o4lPwrH25PP62V">
+        <rdfs:label>Genetics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReFjxBOTf5tpX6EP5RstYj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReFjxBOTf5tpX6EP5RstYj">
+        <rdfs:label>Agglomerative Hierarchical Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RedRM3OseTWGX1Ztj6TVGg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RedRM3OseTWGX1Ztj6TVGg">
+        <rdfs:label>Exact Cover Problem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReiABsiTh3dZ9lfS0S06MC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReiABsiTh3dZ9lfS0S06MC">
+        <rdfs:label>Matrix Multiplication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RftBsJsaPN4qa1lFnePkYo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RftBsJsaPN4qa1lFnePkYo">
+        <rdfs:label>Computation of Pi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg96pHSgzWtyTyX98LciOM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rg96pHSgzWtyTyX98LciOM">
+        <rdfs:label>Complete-linkage Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/ReFjxBOTf5tpX6EP5RstYj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RghPoDevluM4IsS4W3GbEs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RghPoDevluM4IsS4W3GbEs">
+        <rdfs:label>Online Learning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RglvJDFtlvAF6uohKhi8S2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RglvJDFtlvAF6uohKhi8S2">
+        <rdfs:label>Rounding Functions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgwhZHdKMqvMC0e3t3W3Ct -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgwhZHdKMqvMC0e3t3W3Ct">
+        <rdfs:label>RNN</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhjHoFxo55IIAh7odOx1pz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhjHoFxo55IIAh7odOx1pz">
+        <rdfs:label>Autoencoder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUxvUcX8o92xdUS3Yshjyv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhxkT3IqqnGOYb0RqyblZd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhxkT3IqqnGOYb0RqyblZd">
+        <rdfs:label>Bantzig-Wolfe Decomposition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7f0tQJJTznQXhMVk11R1vl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ri2S7PEYBx88o4ejOtgqj2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ri2S7PEYBx88o4ejOtgqj2">
+        <rdfs:label>ESC Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGPPwWViwDhDUh9LrAt5IC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjwNRB0kHo94joudtKkjwn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjwNRB0kHo94joudtKkjwn">
+        <rdfs:label>Cone Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RH5EyaJs7r0xBwqJIdN4QD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkEuzInRzFzVIxfBvnQMK5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkEuzInRzFzVIxfBvnQMK5">
+        <rdfs:label>Euler Integration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCzrEqKksKTfdm1DT1DbnpF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rkbzp3g1opBkChcbS813s9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rkbzp3g1opBkChcbS813s9">
+        <rdfs:label>Gnome Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT8F0cNUNkFJC7LRzCvE1v"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkdBrxenSwtaAdkojEycc3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkdBrxenSwtaAdkojEycc3">
+        <rdfs:label>CORDIC</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hQPm3b5nBfBu7LnhQS7rk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkxjFGa20bpK5vdxOeT0fA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkxjFGa20bpK5vdxOeT0fA">
+        <rdfs:label>Cocktail Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT8F0cNUNkFJC7LRzCvE1v"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkxkuqNLbJ2qR80RqPWu8V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkxkuqNLbJ2qR80RqPWu8V">
+        <rdfs:label>Multiplication Algorithms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rl11hTJckutLjAlh5igWh2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rl11hTJckutLjAlh5igWh2">
+        <rdfs:label>SUBCLU</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rl2Mif4poYiDNqYkncxcvH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rl2Mif4poYiDNqYkncxcvH">
+        <rdfs:label>Successive Over-Relaxation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rm24t04OiuDgjaqLDaPVAc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rm24t04OiuDgjaqLDaPVAc">
+        <rdfs:label>AC-3 Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dO0DCD5VhkFvENvmeBOEB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmPQrO4P9FgripXmHs1SiT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmPQrO4P9FgripXmHs1SiT">
+        <rdfs:label>Stone&apos;s Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmfJnVKAWybh23u252QU24 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmfJnVKAWybh23u252QU24">
+        <rdfs:label>Binary Search Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hu8jFYmFrwkTpZaCwHl8z"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmwahVMYwfboSTLXGU1UJt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmwahVMYwfboSTLXGU1UJt">
+        <rdfs:label>Differential Equation Solving</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ocLUYZ7h49nqjD0u3nl2o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmzTEvl1IVBi6T9zjgDOyh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmzTEvl1IVBi6T9zjgDOyh">
+        <rdfs:label>Forward-backward Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBZLGFIG59i7VaxX4XKMH2O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rn071ek38nHnVJY2KrAKpN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rn071ek38nHnVJY2KrAKpN">
+        <rdfs:label>Spigot Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RbbFOKsgjsdipFNsBh1jpX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rn66KLbRdAAevjwiDLdEiQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rn66KLbRdAAevjwiDLdEiQ">
+        <rdfs:label>Chew&apos;s Second Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9SL5S2ZnM3RzSqa1mqlTsJ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnH1nFFiO1JyCnK6rtSzHF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnH1nFFiO1JyCnK6rtSzHF">
+        <rdfs:label>Chakravala Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBnLrp84nsokCmAxER4QIk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RndLa0aq7s2D0kuIEC8zim -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RndLa0aq7s2D0kuIEC8zim">
+        <rdfs:label>Viterbi Aulgorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBZLGFIG59i7VaxX4XKMH2O"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rnk2VTjdPJHV1LGzbGCRsa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rnk2VTjdPJHV1LGzbGCRsa">
+        <rdfs:label>Sieve of Erathosthenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoVvGwn56iyB2SGAJvr6LF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RoVvGwn56iyB2SGAJvr6LF">
+        <rdfs:label>Graphical Models</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Q5eklRmH57oFjWCWWAVyn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rou81wAn3SXyOVMhgNFjfw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rou81wAn3SXyOVMhgNFjfw">
+        <rdfs:label>Nearest-neighbor Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8juD5ZS1liXuK532aP3bSI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqiT9J9DTPUqnFpA9zPrYr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqiT9J9DTPUqnFpA9zPrYr">
+        <rdfs:label>Lagrange Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rqlsc8gWMs6wkwISbsYsVI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rqlsc8gWMs6wkwISbsYsVI">
+        <rdfs:label>Geoscience</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rr7wzSNTtw0vUHJdFnpW5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rr7wzSNTtw0vUHJdFnpW5">
+        <rdfs:label>Medicine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBShFB3FGPhvgK3MLstn3oj"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrCpPfHX4rbjc4dh222ETW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrCpPfHX4rbjc4dh222ETW">
+        <rdfs:label>Simulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrLZzfpq6wuW2Kbsc7Lt0F -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrLZzfpq6wuW2Kbsc7Lt0F">
+        <rdfs:label>Bisection Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrqDrN1YV0TrjKLtvVvWlV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrqDrN1YV0TrjKLtvVvWlV">
+        <rdfs:label>Doomsday Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RHjroyIGDYTcb9N8HzgVEl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsCvmLX06zQPrKNR7dkNjG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsCvmLX06zQPrKNR7dkNjG">
+        <rdfs:label>Kabsch Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDrHPtz8l1PHyYvQ96jYhYe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsPYoMK0YL5fL6xSYY1kwH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsPYoMK0YL5fL6xSYY1kwH">
+        <rdfs:label>Polynomial Interpolation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYUgT3SRJ0iMxA6SI5eqF0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsrvOSAKfXo5CDhNRTJ9GZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsrvOSAKfXo5CDhNRTJ9GZ">
+        <rdfs:label>Borwein&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RftBsJsaPN4qa1lFnePkYo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rt2k9OLHrXtDPqZtjBAa8x -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rt2k9OLHrXtDPqZtjBAa8x">
+        <rdfs:label>Tree Sort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCAbaR9JckhgmtNSPo01ix7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rtza0wzGWlsRVn9DtI9OAc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rtza0wzGWlsRVn9DtI9OAc">
+        <rdfs:label>AdaBoost</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDf0HksgIFb2rW7bzGxNKIf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuBMydeL3OPBH3tWmEsoL8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuBMydeL3OPBH3tWmEsoL8">
+        <rdfs:label>Classification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rvb2sKlCPOUEuDKFVci2Kh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rvb2sKlCPOUEuDKFVci2Kh">
+        <rdfs:label>Double Metaphone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9YpJMpVSyN21Np3x79uJ1o"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvesHCpM4YOotNHnwpSSxv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvesHCpM4YOotNHnwpSSxv">
+        <rdfs:label>K-Means</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTQe251QM1i8W8fWfmqOY5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvjLxKGvCHm8KZpnWuIBVg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvjLxKGvCHm8KZpnWuIBVg">
+        <rdfs:label>Tridiagonal Matrix Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RTHCfuItnMG1vX3zbOXQMu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvylcQVbiAmhM4fVrqTsTX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvylcQVbiAmhM4fVrqTsTX">
+        <rdfs:label>Faugere F4 Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKywfe4iueg7UptjfPtSx"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwDHviPhYlrHjZlE6gBaMn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RwDHviPhYlrHjZlE6gBaMn">
+        <rdfs:label>Anomaly Detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87Zww3NTrNnxF7x9jMJHaL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwOGTYvbGim4SXUw7D8fsc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RwOGTYvbGim4SXUw7D8fsc">
+        <rdfs:label>Shifting N-th Root</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R49sIkMbyD8uRWUuo6xquT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rwlrk0li1nKEnSJygdSkO9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rwlrk0li1nKEnSJygdSkO9">
+        <rdfs:label>Simulated Annealing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pDLKLzKAd0slgpvIelPr7"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwqxHF9ESX0eiV5ZBwjd8o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RwqxHF9ESX0eiV5ZBwjd8o">
+        <rdfs:label>Non-restoring Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB7iINMqkXhVumLJOt5VNJu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxrldkNQXIr9UDQ7AE1vOf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RxrldkNQXIr9UDQ7AE1vOf">
+        <rdfs:label>Heapsort</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Yue6n0Zpnwfn6hFvxcByg"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ry0FjXb4tX8MchWnqDt8Qu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ry0FjXb4tX8MchWnqDt8Qu">
+        <rdfs:label>Lenstra Elliptic Curve Factorization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDyYeKfoIYaHOlyhrDbZ9x9"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RywdQb7bZieYh3ZwR7wFVH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RywdQb7bZieYh3ZwR7wFVH">
+        <rdfs:label>AKS Primality Test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7OJkQ92o2QHmjLafaxCrzc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rz1UmIjwbtK9yPCp1t6GHf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rz1UmIjwbtK9yPCp1t6GHf">
+        <rdfs:label>Vicentry&apos;s Formula</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCT2BDQbL8sssjFDYxRK8fF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rzt5nba1YadJgWt8Md8PQa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rzt5nba1YadJgWt8Md8PQa">
+        <rdfs:label>Sukhotin&apos;s Algorithm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84lS1URNRkfVWMK4v0CjrS"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
